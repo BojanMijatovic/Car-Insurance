@@ -1,1 +1,31 @@
- 
+@import '../../style/core/colors.styles.scss';
+.ui.divided {
+    box-shadow: none;
+}
+
+.ui.segment {
+    box-shadow: none;
+    border: none;
+    border-radius: none;
+    border-top: none;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.header-subtext {
+    font-size: 16px;
+    color: #838383;
+}
+
+.menu-items {
+    margin-top: 140px;
+    .menu-item {
+        margin-bottom: 30px;
+         :hover {
+            cursor: pointer;
+            color: $primary-blue;
+        }
+    }
+}
