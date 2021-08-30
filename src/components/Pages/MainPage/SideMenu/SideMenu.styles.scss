@@ -1,0 +1,11 @@
+@import '../../../style/core/colors.styles.scss';
+.menu-items {
+    margin-top: 140px;
+    .menu-item {
+        margin-bottom: 30px;
+         :hover {
+            cursor: pointer;
+            color: $primary-blue;
+        }
+    }
+}

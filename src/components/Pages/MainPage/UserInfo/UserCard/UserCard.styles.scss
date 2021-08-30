@@ -1,0 +1,12 @@
+.ui.card.user-card {
+    border-right: red solid 4px;
+    h2 {
+        padding: 15px 0 10px 10px;
+    }
+    .card-description {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 0 10px;
+    }
+}
