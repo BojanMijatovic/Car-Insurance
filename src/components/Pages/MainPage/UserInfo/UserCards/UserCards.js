@@ -1,7 +1,10 @@
 import React from 'react';
 import { Container, Grid } from 'semantic-ui-react';
 
-import UserCard from '../UserCard/UserCard';
+import UserCardLevel from '../UserCardLevel/UserCardLevel';
+import UserCardIncome from '../UserCardIncome/UserCardIncome';
+import UserCardPoints from '../UserCardPoints/UserCardPoints';
+import UserCardAddNew from '../UserCardAddNew/UserCardAddNew';
 
 import './UserCards.styles.scss';
 
@@ -10,16 +13,16 @@ const UserCards = () => {
     <Container className='user-cards'>
       <Grid columns='equal'>
         <Grid.Column>
-          <UserCard />
+          <UserCardLevel />
         </Grid.Column>
         <Grid.Column>
-          <UserCard />
+          <UserCardIncome />
         </Grid.Column>
         <Grid.Column>
-          <UserCard />
+          <UserCardPoints />
         </Grid.Column>
         <Grid.Column>
-          <UserCard />
+          <UserCardAddNew />
         </Grid.Column>
       </Grid>
     </Container>

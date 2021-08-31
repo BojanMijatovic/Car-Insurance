@@ -1,8 +1,8 @@
 import React from 'react';
 import { Rating } from 'semantic-ui-react';
-import './UserCard.styles.scss';
+import './UserCardLevel.styles.scss';
 
-const UserCard = () => {
+const UserCardLevel = () => {
   return (
     <div className='user-card'>
       <h2>Level</h2>
@@ -14,4 +14,4 @@ const UserCard = () => {
   );
 };
 
-export default UserCard;
+export default UserCardLevel;

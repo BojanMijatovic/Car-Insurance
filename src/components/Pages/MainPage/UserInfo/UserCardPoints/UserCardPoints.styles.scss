@@ -1,0 +1,14 @@
+@import '../../../../style/core/colors.styles.scss';
+.user-card-points {
+    border-right: $primary-red solid 4px;
+    h2 {
+        padding: 15px 0 10px 10px;
+    }
+    .card-description {
+        margin-top: 20px;
+        padding: 0 10px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+}

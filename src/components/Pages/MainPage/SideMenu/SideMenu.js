@@ -14,7 +14,7 @@ const SideMenu = () => {
       <div className='menu-item'>
         <Header as='h3'>
           <Icon name='add user' />
-          <Header.Content>Register new User</Header.Content>
+          <Header.Content>Register User</Header.Content>
         </Header>
       </div>
       <div className='menu-item'>
