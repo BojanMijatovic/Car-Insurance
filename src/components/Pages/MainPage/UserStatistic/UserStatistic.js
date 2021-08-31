@@ -15,6 +15,15 @@ const UserStatistic = () => {
               label: 'Income',
               data: [5600, 4200, 3200, 4500, 5500, 6500, 7500],
               backgroundColor: '#337cff',
+              borderColor: '#337cff',
+              borderWidth: 0,
+            },
+            {
+              label: 'Points',
+              data: [2, 13, 5, 7, 8, 9, 10],
+              backgroundColor: '#e53b5c',
+              borderColor: '#e53b5c',
+              borderWidth: 0,
             },
           ],
         }}

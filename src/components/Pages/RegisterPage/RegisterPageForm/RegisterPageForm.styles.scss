@@ -1,0 +1,28 @@
+@import '../../../style/core/colors.styles.scss';
+.ui.container.register-page-form {
+    padding-left: 55px;
+    .check-form {
+        width: 30%;
+        label {
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        input {
+            outline: none;
+        }
+        button {
+            color: white;
+            background-color: $primary-blue;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            &:hover {
+                background-color: white;
+                color: $primary-blue;
+                border: 1px solid $primary-blue;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
