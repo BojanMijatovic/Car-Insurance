@@ -7,7 +7,7 @@ const UserCardIncome = () => {
     <div className='user-card-income'>
       <h2>Income</h2>
       <div className='card-description'>
-        <h3>50.000</h3>
+        <h3>40.000</h3>
         <Icon name='database' size='large' color='yellow' />
       </div>
     </div>

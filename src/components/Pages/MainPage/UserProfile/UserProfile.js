@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment } from 'semantic-ui-react';
+import {} from 'semantic-ui-react';
 
 import UserProfileInfo from './UserProfileInfo/UserProfileInfo';
 import UserProfilePackage from './UserProfilePackage/UserProfilePackage';
