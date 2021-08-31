@@ -1,0 +1,16 @@
+@import '../../../../style/core/colors.styles.scss';
+.user-package {
+    margin: 40px 0;
+    .ui.header {
+        margin-bottom: 10px;
+    }
+    .user-packages {
+        margin-bottom: 40px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px 0;
+        color: $primary-blue;
+    }
+}

@@ -6,7 +6,7 @@ import './UserCardAddNew.styles.scss';
 const UserCardAddNew = () => {
   return (
     <div className='user-card-add-new'>
-      <h2>Points</h2>
+      <h2>New Users</h2>
       <div className='card-description'>
         <h3>+3</h3>
         <Icon name='check square outline' size='large' color='green' />
