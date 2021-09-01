@@ -1,6 +1,10 @@
 @import '../../../style/core/colors.styles.scss';
 .ui.container.show-account {
     padding-left: 50px;
+    h3.ui.header {
+        font-size: 25px;
+        margin: 60px 0 20px;
+    }
 }
 
 .show-account__info {
