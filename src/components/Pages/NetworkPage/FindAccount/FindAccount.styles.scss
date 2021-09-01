@@ -1,0 +1,21 @@
+@import '../../../style/core/colors.styles.scss';
+.find-account {
+    margin: 70px 0 40px 60px;
+    width: 75%;
+    h3 {
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .ui.fluid.button {
+        margin-top: 30px;
+        color: white;
+        background-color: $primary-blue;
+        border: $primary-blue 1px solid;
+        &:hover {
+            background-color: white;
+            color: $primary-blue;
+            border: $primary-blue 1px solid;
+        }
+    }
+}

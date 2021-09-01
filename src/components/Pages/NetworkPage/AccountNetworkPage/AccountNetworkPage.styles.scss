@@ -1,0 +1,8 @@
+@import '../../../style/core/colors.styles.scss';
+.account-network-page {
+    margin: 5px 0 30px;
+    .ui.header.network-page__header {
+        color: $primary-blue;
+        margin-bottom: 30px;
+    }
+}

@@ -47,26 +47,26 @@ const RegisterPageForm = () => {
             <h4>Car Information</h4>
             <Form.Group widths='equal'>
               <Form.Field required>
-                <label>Car license plates</label>
-                <input placeholder='Car license plates' />
+                <label>License plate</label>
+                <input placeholder='License plates' />
               </Form.Field>
               <Form.Field required>
-                <label>Car Brand</label>
-                <input placeholder='Car Brand' />
+                <label>Brand</label>
+                <input placeholder='Brand' />
               </Form.Field>
               <Form.Field required>
-                <label>Car model</label>
-                <input placeholder='Car model' />
+                <label>Model</label>
+                <input placeholder='Model' />
               </Form.Field>
             </Form.Group>
             <Form.Group widths='equal'>
               <Form.Field required>
-                <label>Car Color</label>
-                <input placeholder='Car Color' />
+                <label>Color</label>
+                <input placeholder='Color' />
               </Form.Field>
               <Form.Field required>
-                <label>Car year</label>
-                <input placeholder='Car year' />
+                <label>Year manufacture</label>
+                <input placeholder='Year manufacture' />
               </Form.Field>
             </Form.Group>
           </Form.Field>

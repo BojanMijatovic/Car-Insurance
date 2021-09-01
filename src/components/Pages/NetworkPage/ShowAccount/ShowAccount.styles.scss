@@ -1,0 +1,18 @@
+@import '../../../style/core/colors.styles.scss';
+.ui.container.show-account {
+    padding-left: 50px;
+}
+
+.show-account__info {
+    margin-top: 20px;
+    span {
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 10px;
+        color: $primary-blue;
+    }
+    .ui.star.rating .active.icon {
+        color: $primary-blue !important;
+        text-shadow: none !important;
+    }
+}

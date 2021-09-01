@@ -15,13 +15,13 @@
         button {
             color: white;
             background-color: $primary-blue;
-            border: none;
+            border: white 1px solid;
             border-radius: 5px;
             padding: 10px;
             &:hover {
+                border: $primary-blue 1px solid;
                 background-color: white;
                 color: $primary-blue;
-                border: 1px solid $primary-blue;
                 transition: all 0.3s ease-in-out;
             }
         }
@@ -41,7 +41,7 @@
         width: 30%;
         color: white;
         background-color: $primary-blue;
-        border: none;
+        border: white 1px solid;
         border-radius: 5px;
         padding: 10px;
         &:hover {
