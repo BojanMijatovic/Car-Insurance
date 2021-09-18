@@ -26,13 +26,7 @@ const SideMenu = () => {
       <div className='menu-item'>
         <Header as='h3'>
           <Icon name='add square' />
-          <Header.Content>Add Product</Header.Content>
-        </Header>
-      </div>
-      <div className='menu-item'>
-        <Header as='h3'>
-          <Icon name='calendar times' />
-          <Header.Content>End Package</Header.Content>
+          <Header.Content>Show Packages</Header.Content>
         </Header>
       </div>
       <div className='menu-item'>

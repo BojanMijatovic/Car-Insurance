@@ -27,7 +27,6 @@ const Packages = () => {
                   <h4>PACKAGE</h4>
                   <p>3 Points</p>
                 </div>
-
                 <Modal
                   onClose={() => setOpen(false)}
                   onOpen={() => setOpen(true)}
@@ -68,6 +67,9 @@ const Packages = () => {
           </Grid.Row>
         </Grid>
       </div>
+      <Button className='packages-button' color='twitter'>
+        Find more packages
+      </Button>
     </Container>
   );
 };
